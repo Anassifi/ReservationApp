@@ -6,6 +6,12 @@
              version="2.1">
 
     <persistence-unit name="ReservationDB">
+        <class>com.anassifi.model.UserEntity</class>
+        <class>com.anassifi.model.AdminEntity</class>
+        <class>com.anassifi.model.ReservationEntity</class>
+        <class>com.anassifi.model.RoleEntity</class>
+        <class>com.anassifi.model.StudentEntity</class>
+        <class>com.anassifi.model.TypereservationEntity</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:1996/ReservationDB" />
             <property name="javax.persistence.jdbc.user" value="postgresql" />
@@ -13,6 +19,8 @@
             <property name="javax.persistence.jdbc.driver" value="com.postgresql.jdbc.Driver" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:1996/reservationYoucode"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
         </properties>
     </persistence-unit>
 
