@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="ReservationDB@localhost" uuid="96b108a1-9bce-469b-ac75-7c53218ab4cb">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:1996/ReservationDB</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="reservationYoucode@localhost" uuid="5e400185-54da-4e44-b7e7-6c1814411707">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -15,11 +8,15 @@
       <jdbc-url>jdbc:postgresql://localhost:1996/reservationYoucode</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="test@localhost" uuid="cbab37eb-c254-4f1f-adef-da425165d351">
+    <data-source source="LOCAL" name="ReservationDB/Hibernate" uuid="fa5db725-ad33-4b89-8a1b-e01cc9af1bc3">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Youcode/Desktop/Anassifi/YouCode/Java/ReservationApp/App/src/main/java/com/anassifi/META-INF/persistence.xml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:1996/test</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:1996/reservationYoucode</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
